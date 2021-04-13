@@ -20,6 +20,7 @@ spec:
         prometheus.io/port: "9797"
       labels:
         app: podinfo
+        test: thorsten
     spec:
       containers:
       - name: podinfod
